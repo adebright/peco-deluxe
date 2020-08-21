@@ -981,6 +981,7 @@ td {
     width : 100%;
     object-fit: cover;
     padding-bottom: .25rem;
+    height: 40vw;
 }
 .bg-gray-light {
   background-color: #fafbfc!important;
@@ -991,7 +992,7 @@ td {
 .text-gray-dark {
   color : #24292e;
 }
-@media (max-width : 576px){
+@media (min-width : 576px){
   
   .pc-input-h10 {
     height : 40px;
@@ -2205,9 +2206,6 @@ p.bg-peco {
     .d-active-sm {
         display : block;
     }
-    /* .sticky {
-        display: none;
-    } */
     .main-now {
         width : 50%;
         height: 100%;
@@ -2446,6 +2444,9 @@ p.bg-peco {
     margin-right: 10px;
     border-radius: 10px;
   }
+  /* .img-rectangular {
+    height: 30vw;
+} */
 }
 @media (min-width : 992px){
    .wrapper {
